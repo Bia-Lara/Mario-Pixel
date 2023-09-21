@@ -1,0 +1,69 @@
+body{
+    background-image: url('fundo.png');
+    background-size: cover;
+    background-color: blue;
+    
+    
+}
+
+audio{
+  opacity: 0.1;
+}
+
+table{
+    border: none;
+    border-spacing: 0;
+    border-collapse: collapse;
+    animation: pula 0.6s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes pula{
+    from {
+        transform: translate3d(0, 0, 0);
+       
+    }
+    to {
+        transform: translate3d(0, 100px,0);
+        
+    }
+}
+
+
+table thead th, td{
+    width: 15px;
+    height: 15px;
+}
+
+.preto{
+    background-color: black;
+    border: 1.3px solid black;
+}
+
+.red{
+    background-color: red;
+    border: 1.3px solid red;
+}
+
+.white{
+    background-color: white;
+    border: 1.3px solid white;
+}
+
+.rose{
+    background-color: rgb(245, 207, 161);
+    border: 1.3px solid rgb(245, 207, 161);
+}
+
+.blue{
+    background-color: rgb(62, 105, 248);
+    border: 1.3px solid rgb(62, 105, 248);
+}
+
+.brown{
+    background-color: #9a520f;
+    border: 1.3px solid #9a520f;
+}
